@@ -1,0 +1,23 @@
+Создать класс Employee c полями id, name, age, salary.
+Сделать его Comparable по id
+Создать дополнительные возможности сортировки по: salary, age, name а также по ageAndThenName, т.е. если возраст одинаковый, то сортировать по имени.
+Создать в классе Main список сотрудников и отсортировать его всеми этими способами
+
+
+Before sorting:
+[ID3 John age25 $5000, ID1 Jane age30 $6000, ID2 Bob age25 $4000]
+
+Sorting by id:
+[ID1 Jane age30 $6000, ID2 Bob age25 $4000, ID3 John age25 $5000]
+
+Sorting by salary:
+[ID2 Bob age25 $4000, ID3 John age25 $5000, ID1 Jane age30 $6000]
+
+Sorting by age:
+[ID2 Bob age25 $4000, ID3 John age25 $5000, ID1 Jane age30 $6000]
+
+Sorting by name:
+[ID2 Bob age25 $4000, ID1 Jane age30 $6000, ID3 John age25 $5000]
+
+Sorting by age and then name:
+[ID2 Bob age25 $4000, ID3 John age25 $5000, ID1 Jane age30 $6000]
